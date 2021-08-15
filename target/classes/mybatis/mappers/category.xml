@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cate">
+
+	<resultMap type="CategoryVo" id="resultMapCategoryVo">
+		<result column="id" property="id"/>
+		<result column="cate_no" property="cateNo"/>
+		<result column="cnt" property="count"/>
+		<result column="cate_name" property="cateName"/>
+		<result column="description" property="description"/>
+		<result column="reg_date" property="regDate"/>
+	</resultMap>
+
+	
+
+</mapper>
